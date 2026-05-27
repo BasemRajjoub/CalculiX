@@ -1,0 +1,36 @@
+# C/Fortran compiled objects
+*.o
+*.a
+*.so
+*.dylib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Executables
+*.exe
+*.out
+
+# Build directories
+build/
+dist/
+bin/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Local build configuration
+Makefile.local
+*.local
+
+# Dependency files
+*.d
+
+# Built CalculiX binary
+src/CalculiX
